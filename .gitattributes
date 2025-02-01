@@ -1,1 +1,2 @@
 *.fen filter=lfs diff=lfs merge=lfs -text
+stale_boards_5.fen filter=lfs diff=lfs merge=lfs -text
