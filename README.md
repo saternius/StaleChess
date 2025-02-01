@@ -23,3 +23,9 @@ For a chess board with 6 pieces or less, perfect play results in a draw if all c
 The starting position satisfies all of these conditions, so it will be interesting to see if this lemma holds for 8 pieces, 10 pieces, etc.
 
 Trust this as far as you trust auto-generated code.
+
+
+
+Included are the stale boardstates for 2, 4, 6, and even 8 pieces.
+Included is the python code I used to generate the stale boards. It is not optimised at all.
+Ideally someone who is more skilled at engine search could generate more stale boards and verify whether this lemma holds for 8 pieces +
