@@ -35,3 +35,6 @@ I used stockfish with a depth of 20 to just get a vibe on how strong this lemma 
 From this I found about 500 exceptions where this does not hold.
 
 If we expand the condition (no trapped pieces) to include no discoverable threats, then the lemma holds for boards with 4 pairs or less.
+
+
+o1 DeepResearch insights: https://chatgpt.com/share/67a412ff-6c68-8013-a391-04625f09a8af
