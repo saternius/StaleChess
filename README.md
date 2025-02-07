@@ -29,3 +29,9 @@ Trust this as far as you trust auto-generated code.
 Included are the stale boardstates for 2, 4, 6, and even 8 pieces.
 Included is the python code I used to generate the stale boards. It is not optimised at all.
 Ideally someone who is more skilled at engine search could generate more stale boards and verify whether this lemma holds for 8 pieces +
+
+[Update]
+I used stockfish with a depth of 20 to just get a vibe on how strong this lemma is on 4 pair boards, 
+From this I found about 500 exceptions where this does not hold.
+
+If we expand the condition (no trapped pieces) to include no discoverable threats, then the lemma holds for boards with 4 pairs or less.
